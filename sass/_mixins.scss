@@ -1,0 +1,8 @@
+@mixin after-before{
+  contain: '';
+  display: block;
+}
+@mixin lists{
+  list-style: none;
+  padding: 0;
+}

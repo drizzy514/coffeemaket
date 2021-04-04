@@ -1,0 +1,74 @@
+.heading {
+  background-image: url('../image/Bitmap.png');
+  background-repeat: no-repeat;
+  margin-top: 43px;
+  padding: 85px;
+
+  border-radius: 8px;
+}
+
+.heading__title {
+
+  width: 493px;
+  color: #fff;
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.heading__description {
+
+  color: #fff;
+  width: 445px;
+
+  font-family: 'Barlow', serif;
+
+}
+
+@media screen and (max-width:1280px) {
+  .heading__title {
+    font-size: 48px;
+    width: 329px;
+ 
+  }
+
+  .heading {
+background-image:url("../../image/cofferaoter.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+
+
+  }
+
+  .heading__description {
+    width: 398px;
+
+  }
+}
+// mobile 
+@media screen and (max-width:689px){
+  .heading{
+    background: url('../../image/mobile-coffee.jpg') no-repeat;
+    background-size: contain;
+text-align:center;
+padding: 50px 50px 100px;
+position: relative;
+  }
+ 
+  .heading__description{
+  
+width: 247px;
+  }
+  .heading__title{
+    margin-left: -43px;
+    font-size: 40px;
+    font-weight: 900;
+ 
+  }
+  
+  .heading__desc{
+    width: 247px;
+  }
+}

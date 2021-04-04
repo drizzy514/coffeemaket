@@ -1,0 +1,22 @@
+.main-link{
+  background-color: #0E8784;
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 8px;
+&:hover{
+  background-color: $corall;
+  box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+&:active{
+  background-color: #051336;
+}
+}
+@media screen and (max-width:1280px) {
+  .main-link{
+    padding: 16px 31px;
+  }
+}
+.logo-link{
+  margin-right: 24px;
+}
